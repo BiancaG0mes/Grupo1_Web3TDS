@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enem Analyze</title>
+    <meta name="description" content="Enem Analyze - Calcule e analise o desempenho no ENEM">
+    <meta name="keywords" content="ENEM, análise de desempenho, educação, estudantes, cálculo de notas">
+    <meta name="author" content="Seu Nome">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<header></header>
+<main>
+    <section id="i">
+        <h1>Calcule seu Desempenho no ENEM 2024</h1>
+        <p>Preencha as informações do quadro para calcular uma estimativa de sua média, com base em seus acertos:</p>
+        <img src="imagem.jpg">
+    </section>
+
+    <section id="desempenho">
+        <form id="formDesempenho">
+            <label for="acertosLinguagens">Acertos em Linguagens e suas Tecnologias:</label>
+            <input type="number" id="acertosLinguagens" name="acertosLinguagens" required>
+
+            <label for="acertosCienciasHumanas">Acertos em Ciências Humanas e suas Tecnologias:</label>
+            <input type="number" id="acertosCienciasHumanas" name="acertosCienciasHumanas" required>
+
+            <label for="acertosMatematica">Acertos em Matemática e suas Tecnologias:</label>
+            <input type="number" id="acertosMatematica" name="acertosMatematica" required>
+
+            <label for="acertosCienciasNatureza">Acertos em Ciências da Natureza e suas Tecnologias:</label>
+            <input type="number" id="acertosCienciasNatureza" name="acertosCienciasNatureza" required>
+            <br><br>
+
+            <button type="submit">Calcular Desempenho</button>
+            <br><br>
+        </form>
+
+        <!-- Exibição dos resultados -->
+        <div id="resultados">
+            <br>
+            <h2>R E S U L T A D O S</h2>
+            <br>
+            <p><strong>Média em Linguagens:</strong> <span id="mediaLinguagens"></span></p>
+            <p><strong>Média em Ciências Humanas:</strong> <span id="mediaCienciasHumanas"></span></p>
+            <p><strong>Média em Matemática:</strong> <span id="mediaMatematica"></span></p>
+            <p><strong>Média em Ciências da Natureza:</strong> <span id="mediaCienciasNatureza"></span></p>
+            <br><p><strong>Média Total:</strong> <span id="mediaTotal"></span></p>
+            <br>
+
+        </div>
+        <br>
+    </section>
+    <br><br>
+</main>
+<footer>
+    <p>&copy; 2024 Desempenho ENEM - Bianca, Cibelly, Ludmylla, Manoel e Malu</p>
+</footer>
+
+<!-- Link para o arquivo JS -->
+<script src="script.js"></script>
+</body>
+</html>

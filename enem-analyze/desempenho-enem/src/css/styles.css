@@ -1,0 +1,105 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgb(0, 10, 51);
+}
+
+#i {
+    color: #cedfed;
+}
+
+img {
+    width: 550px;
+    height: 250px;
+    opacity: 100%;
+    border-radius: 20px;
+    margin-left: 50px;
+    text-align: center;
+    margin: 50px 500px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Ajuste de tamanho do campo de entrada */
+form input {
+    padding: 5px;
+    width: 80px; /* Define uma largura menor */
+    height: 30px; /* Ajusta a altura */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(60, 95, 163, 0.12);
+    text-align: center;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #5f75a5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+form button:hover {
+    background-color: #00116e;
+}
+
+#resultados {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #001c3e;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: #f2f8ff;
+}
+
+#button {
+    font-size: 25px;
+}
+
+#desempenho {
+    text-align: center;
+    background-color: #cedfed;
+    width: 550px;
+    height: 870px;
+    margin: 1px 500px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: 5px solid rgba(18, 40, 120, 0);
+}
+
+#ii {
+    text-align: center;
+    margin: 5px 500px;
+    border-radius: 10px;
+    border: 1px solid #5a6061;
+    width: 550px;
+    padding: 20px;
+    background-color: #bfd6f4;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #bfd6f4;
+    color: #011235;
+    margin-top: 30px;
+}
